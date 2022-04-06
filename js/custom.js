@@ -77,8 +77,9 @@ function YouTubeVideo() {
         }
     }
 }
-
+/*
 function OwlCarousel() {
+
     $('.owl-carousel').each( function() {
         var $carousel = $(this);
         $carousel.owlCarousel({
@@ -94,7 +95,7 @@ function OwlCarousel() {
             navText : [ '<span class="fa fa-angle-left"><span>', '<span class="fa fa-angle-right"></span>' ],
             responsive: {
                 0 : {
-                    items: 1,
+                    items: 3,
                     dots: true,
                     nav: false
                 },
@@ -106,6 +107,59 @@ function OwlCarousel() {
             }
         });
     });
+ 
+} */
+function OwlCarousel() {
+
+$('.carousel2').owlCarousel({
+    loop: true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2000,
+    navText : [ '<span class="fa fa-angle-left"><span>', '<span class="fa fa-angle-right"></span>' ],
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:3,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:true
+        }
+    }
+});
+
+$('.carousel1').owlCarousel({
+    loop: true,
+    margin:10,
+    dots : false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    navText : [ '<span class="fa fa-angle-left"><span>', '<span class="fa fa-angle-right"></span>' ],
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:true
+        }
+    }
+});
+
 }
 
 function stickySidebars() {

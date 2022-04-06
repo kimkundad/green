@@ -1,13 +1,16 @@
+body, html,h1,h2,h3,h4,h5,h6,p,span,strong, a{
+    font-family: 'Kanit', sans-serif;
+  }
 .navbar-brand {
     float: left;
-    height: 120px;
+    height: 90px;
     padding: 5px;
     font-size: 18px;
     line-height: 20px;
 }
 .btn-primary-inverse {
-    background: #98c59b;
-    border-color: #86c58a;
+    background: #008248;
+    border-color: #008248;
     color: #fff !important;
     border-radius: 50px;
     padding: 10px 15px!important;
@@ -17,10 +20,25 @@
     font-size: 22px;
 }
 
+.btn-primary-inverse2{
+    background: #008248;
+    border-color: #008248;
+    color: #fff !important;
+    border-radius: 50px;
+    padding: 10px 15px!important;
+}
+.btn-primary-inverse2:hover{
+    background: #008248;
+    border-color: #008248;
+    color: #008248 !important;
+    border-radius: 50px;
+    padding: 10px 15px!important;
+}
+
 .btn-primary-inverse:hover{
-    background: #98c59b;
-    border-color: #86c58a;
-    color: #86c58a !important;
+    background: #008248;
+    border-color: #008248;
+    color: #fff !important;
 }
 .navbar-right{
     padding-top: 20px;
@@ -36,11 +54,80 @@
     filter: alpha(opacity=33);
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #4f7651;
+    color: #008248;
     font-weight: 700;
     background-color: #080808;
 }
-.navbar-theme-transparent .navbar-nav > li > a {
-    color: #4f7651;
+.navbar-theme .navbar-nav > li > a {
+    color: #008248;
     font-weight: 700;
+}
+.navbar-theme-border .navbar-collapse {
+    border-bottom: 1px solid rgb(255 255 255 / 0%);
+}
+.navbar-theme-transparent .navbar-nav > li.active > a {
+    border-bottom: 1px solid #008248;
+}
+._h-540px{
+    height: 540px !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    color: #008248;
+}
+.nav-line > li.active > a, .nav-line > li.active > a:hover, .nav-line > li.active > a:focus {
+    border: none;
+    border-bottom: 2px solid #008248;
+}
+.nav-tabs {
+    border-bottom: 1px solid #84e9bc;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #008248;
+}
+.bg_light_yellow{
+    background-color: #faeac8 !important;
+}
+.banner_full_content_p{
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #40A944;
+    margin-bottom: 9px;
+}
+.hilight{
+    color: #008248 !important;
+}
+.theme-hero-text-title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    margin-top: 0;
+    line-height: 1em;
+    letter-spacing: 0;
+}
+.theme-footer-brand {
+    opacity: 1;
+}
+.theme-footer-brand-text {
+    color: #b3b3b3;
+    font-size: 14px;
+}
+.theme-footer-section {
+    padding: 22px 0px 0px 0px;
+    position: relative;
+}
+.theme-footer-section-title {
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.new_text_title_pro{
+    font-size: 16px !important
+}
+.font-28{
+    font-size: 28px;
+}
+.theme-about-us-section {
+    margin-top: 35px;
+    padding-top: 35px;
+    border-top: 3px solid #3fb349;
 }
